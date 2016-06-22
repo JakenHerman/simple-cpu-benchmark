@@ -2,11 +2,13 @@
 #include <stdio.h>
 
 int main(int argc, char* argv[]){
-    for(int i=0; i < 10; i++){
+    int i;
+    for(i=0; i < 10; i++){
         double cpu_time_used;
         int count = 0;
         clock_t start = clock();
-        for(int i=0; i < 999999999; i++){
+        int j;
+        for(j=0; j < 999999999; j++){
             count += 1;
         }
         clock_t end = clock();
