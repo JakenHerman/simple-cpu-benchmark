@@ -1,3 +1,3 @@
 # simple-cpu-benchmark
 
-run with `make Benchmarking` and `./Benchmarking`
+run with `make Benchmark` and `./Benchmark`
